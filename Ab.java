@@ -591,16 +591,16 @@
 // }
 // }
 
-import java.io.*;
+// import java.io.*;
 
-public class Ab {
-    public static void main(String[] args) {
-        byte[] buf = {88, 66, 54, 69, 21};
-        ByteArrayInputStream barray = new ByteArrayInputStream(buf);
-        int b = 0;
-        while ((b = barray.read()) != -1) {
-            char ch = (char) b;
-            System.out.println("Char: " + ch);
-        }
-    }
-}
+// public class Ab {
+//     public static void main(String[] args) {
+//         byte[] buf = {88, 66, 54, 69, 21};
+//         ByteArrayInputStream barray = new ByteArrayInputStream(buf);
+//         int b = 0;
+//         while ((b = barray.read()) != -1) {
+//             char ch = (char) b;
+//             System.out.println("Char: " + ch);
+//         }
+//     }
+// }
